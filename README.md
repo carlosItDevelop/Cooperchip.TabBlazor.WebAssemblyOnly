@@ -29,4 +29,5 @@
 - [ ] Update App.Razor;
 - [x] Imported Data, Flag, Icons, Pages, Services, Share and Style Folders;
 - [x] Rename project to Cooperchip.TabBlazor;
+- [x] Update csproj and sln;
 
