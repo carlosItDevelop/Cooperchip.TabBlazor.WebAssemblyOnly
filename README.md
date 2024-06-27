@@ -27,4 +27,5 @@
 - [x] Rename namespaces TabBlazor(...) with TabBlazor only;
 - [ ] Corrigir: Adjusted namespace with 28 error;
 - [ ] Update App.Razor;
+- [x] Imported Data, Flag, Icons, Pages, Services, Share and Style Folders;
 
