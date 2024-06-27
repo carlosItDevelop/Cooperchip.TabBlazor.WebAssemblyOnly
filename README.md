@@ -23,10 +23,10 @@
 - [x] Logo and wwwroot adjusted;
 - [x] Import Microsoft.AspNetCore.Components.Forms;
 - [x] Add ClassBuilder;
-- [ ] Importar features do projeto Icons;
+- [x] Importar features do projeto Icons;
 - [x] Add EntityFrameworkAdapterServiceCollectionExtensions;
 - [x] Add EntityFrameworkAsyncQueryExecutor;
-- [ ] Add await TablerGenerator.GenerateIcons();
+- [x] Add await TablerGenerator.GenerateIcons();
 - [x] Add compilerconfig;
 - [x] Add InternalIcons;
 - [x] Add TabBlazorBuilder;
@@ -34,7 +34,7 @@
 - [x] Add TabBlazorLogo.png, TableColor and TablerExtensions;
 - [x] Rename namespaces TabBlazor(...) with TabBlazor only;
 - [x] Corrigir: Adjusted namespace with 28 error;
-- [ ] Update App.Razor;
+- [x] Update App.Razor;
 - [x] Imported Data, Flag, Icons, Pages, Services, Share and Style Folders;
 - [x] Rename project to Cooperchip.TabBlazor;
 - [x] Update csproj and sln;
