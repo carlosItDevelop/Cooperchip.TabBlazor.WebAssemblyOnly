@@ -13,5 +13,10 @@
 - [x] Copiar para o WebAssembly as pastas Components, General, Services, Styles, Validation
 - [x] Configurar css e js do Server para o novo projeto;
 - [x] Logo and wwwroot adjusted;
-- [x] Import Microsoft.AspNetCore.Components.Forms
+- [x] Import Microsoft.AspNetCore.Components.Forms;
+- [x] Add ClassBuilder;
+- [ ] Importar features do projeto Icons;
+- [ ] Add EntityFrameworkAdapterServiceCollectionExtensions;
+- [ ] Add EntityFrameworkAsyncQueryExecutor;
+- [ ] Add await TablerGenerator.GenerateIcons();
 
