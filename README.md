@@ -19,4 +19,5 @@
 - [ ] Add EntityFrameworkAdapterServiceCollectionExtensions;
 - [ ] Add EntityFrameworkAsyncQueryExecutor;
 - [ ] Add await TablerGenerator.GenerateIcons();
+- [x] Add compilerconfig;
 
