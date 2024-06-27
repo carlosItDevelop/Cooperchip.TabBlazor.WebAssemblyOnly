@@ -5,7 +5,19 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     
+        <BlazorCacheBootResources>false</BlazorCacheBootResources>
+        <WasmBuildNative>true</WasmBuildNative>
+  
+    
   </PropertyGroup>
+  
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.4" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.4" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="7.0.4" />
+        <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.4" />
+        <PackageReference Include="System.Net.Http.Json" Version="7.0.1" />
+    </ItemGroup>  
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.20" />
@@ -32,6 +44,16 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>  
+  
+  
+	<ItemGroup>
+    <PackageReference Include="Blazor-ApexCharts" Version="0.9.16-beta" />
+    <PackageReference Include="ClosedXML" Version="0.100.3" />
+    <PackageReference Include="ColorCode.HTML" Version="2.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+  </ItemGroup>  
+    
   
 	<ItemGroup>
 		<None Update="TabBlazorLogo.png">
