@@ -5,7 +5,7 @@
 ---
 
 - [ ] Projetos a serem otimizados e mixados:
-	- [ ] TabBlazor;
+	- [x] TabBlazor;
 	- [x] TabBlazor.QuickTable.EntityFramework
 	- [x] Tests;
 	- [x] IconGenerator;

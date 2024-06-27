@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="TabBlazor" Version="0.9.4-alpha" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="compilerconfig.json" />
     <Content Remove="Icons\Generated\TablerIcons.json" />
     <Content Remove="Icons\Tabler\tags.json" />
@@ -31,11 +35,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
-  </ItemGroup>  
-
-	<ItemGroup>
-	  <ProjectReference Include="..\..\src\TabBlazor\TabBlazor.csproj" />
-	</ItemGroup>
+  </ItemGroup>
 
   <ItemGroup>
     <Content Update="Components\Helpers\ClickOutside\Multiple.razor">

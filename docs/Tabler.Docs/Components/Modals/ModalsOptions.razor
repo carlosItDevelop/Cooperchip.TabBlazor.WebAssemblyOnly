@@ -65,15 +65,15 @@
     {
         message = string.Empty;
         var component = new RenderComponent<TestModalContent>();
-        var result = await ModalService.ShowAsync("This is a Title", component, modalOptions);
+        var result = await ModalService.ShowAsync("Isto é um título!", component, modalOptions);
 
         if (result.Cancelled)
         {
-            message = "Modal was cancelled!";
+            message = "O Modal foi cancelado!";
         }
         else
         {
-            message = "Modal as ok!";
+            message = "O Modal está ok!";
         }
     }
 
