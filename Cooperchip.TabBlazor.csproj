@@ -32,5 +32,16 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>  
+  
+	<ItemGroup>
+		<None Update="TabBlazorLogo.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="wwwroot\css" />
+	</ItemGroup>
+
 
 </Project>
