@@ -20,4 +20,6 @@
 - [ ] Add EntityFrameworkAsyncQueryExecutor;
 - [ ] Add await TablerGenerator.GenerateIcons();
 - [x] Add compilerconfig;
+- [x] Add InternalIcons;
+- [x] Add TabBlazorBuilder;
 
