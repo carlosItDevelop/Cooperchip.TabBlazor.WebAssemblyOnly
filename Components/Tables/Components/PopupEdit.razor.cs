@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Components;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components.Forms;
 
-namespace TabBlazor.Components.Tables.Components;
+namespace TabBlazor;
 
 public partial class PopupEdit<TItem>
 {

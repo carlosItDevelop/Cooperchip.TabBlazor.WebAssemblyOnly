@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using TabBlazor.Services;
 
-namespace TabBlazor.Components.Tables
+namespace TabBlazor
 {
     public class EditRowBase<TableItem> : TableRowComponentBase<TableItem>
     {

@@ -1,5 +1,5 @@
 ﻿
-namespace TabBlazor.Components.Offcanvas
+namespace TabBlazor.Offcanvas
 {
     public class OffcanvasModel
     {

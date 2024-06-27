@@ -4,7 +4,7 @@ using System;
 using System.Threading.Tasks;
 using TabBlazor.Components.Tables.Components;
 
-namespace TabBlazor.Components.Tables
+namespace TabBlazor
 {
     public interface IColumn<Item>
     {

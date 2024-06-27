@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TabBlazor.Components.Selects
+namespace TabBlazor.Selects
 {
     public class ListItem<TItem, TValue>
     {

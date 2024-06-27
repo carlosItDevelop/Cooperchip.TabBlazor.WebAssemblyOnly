@@ -1,7 +1,7 @@
 using System.Collections.Concurrent;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace TabBlazor.Components.QuickTables.Infrastructure;
+namespace TabBlazor.QuickTables.Infrastructure;
 
 internal static class AsyncQueryExecutorSupplier
 {

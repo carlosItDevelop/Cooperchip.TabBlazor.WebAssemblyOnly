@@ -1,4 +1,4 @@
-﻿namespace TabBlazor.Components.Tables.Components
+﻿namespace TabBlazor
 {
     public interface IDataProvider<Item>
     {

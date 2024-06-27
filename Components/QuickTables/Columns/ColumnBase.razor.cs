@@ -1,4 +1,4 @@
-namespace TabBlazor.Components.QuickTables;
+namespace TabBlazor.QuickTables;
 
 public abstract partial class ColumnBase<TGridItem>
 {

@@ -2,7 +2,7 @@
 using System;
 using TabBlazor.Components.Tables;
 
-namespace TabBlazor.Components.Tables
+namespace TabBlazor
 {
     public class PagerBase<Item> : ComponentBase
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Timers;
 using Timer = System.Timers.Timer;
 
-namespace TabBlazor.Components.Toasts
+namespace TabBlazor.Toasts
 {
     internal class CountdownTimer : IDisposable
     {

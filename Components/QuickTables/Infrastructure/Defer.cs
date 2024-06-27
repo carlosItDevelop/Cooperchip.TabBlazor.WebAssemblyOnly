@@ -1,4 +1,4 @@
-namespace TabBlazor.Components.QuickTables.Infrastructure;
+namespace TabBlazor.QuickTables.Infrastructure;
 
 public class Defer : ComponentBase
 {

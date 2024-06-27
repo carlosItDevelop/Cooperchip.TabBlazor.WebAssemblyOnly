@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.Forms;
 using TabBlazor.Services;
 
-namespace TabBlazor.Components.ObjectBrowser
+namespace TabBlazor.ObjectBrowser
 {
     public partial class PropertyValueLink
     {

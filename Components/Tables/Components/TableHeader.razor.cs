@@ -1,4 +1,4 @@
-﻿namespace TabBlazor.Components.Tables
+﻿namespace TabBlazor
 {
     public class TableHeaderBase<TableItem> : TableRowComponentBase<TableItem>
     {

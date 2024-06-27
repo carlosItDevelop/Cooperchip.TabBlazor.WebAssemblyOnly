@@ -1,6 +1,6 @@
 using TabBlazor.Components.QuickTables.Infrastructure;
 
-namespace TabBlazor.Components.QuickTables;
+namespace TabBlazor.QuickTables;
 
 public class PaginationState
 {

@@ -2,7 +2,7 @@
 using TabBlazor.Components.Tables.Components;
 using System.Threading.Tasks;
 
-namespace TabBlazor.Components.Tables
+namespace TabBlazor
 {
     public class GroupHeaderTableRowBase<TableItem> : ComponentBase
     {

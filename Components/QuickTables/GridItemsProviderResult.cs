@@ -1,4 +1,4 @@
-namespace TabBlazor.Components.QuickTables;
+namespace TabBlazor.QuickTables;
 
 public struct GridItemsProviderResult<TGridItem>
 {

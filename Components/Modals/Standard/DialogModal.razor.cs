@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
 using TabBlazor.Services;
 
-namespace TabBlazor.Components.Modals
+namespace TabBlazor.Modals
 {
     public partial class DialogModal : ComponentBase
     {

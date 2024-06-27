@@ -1,4 +1,4 @@
-﻿namespace TabBlazor.Components.Tables.Components
+﻿namespace TabBlazor
 {
     public class TableResult<TKey, TElement> : List<TElement>, IGrouping<TKey, TElement>
     {

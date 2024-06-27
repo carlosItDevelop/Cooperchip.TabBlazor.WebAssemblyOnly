@@ -1,12 +1,7 @@
-﻿using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using TabBlazor.Components.Tables;
+﻿using Microsoft.AspNetCore.Components.Web;
 using TabBlazor.Services;
 
-namespace TabBlazor.Components.Tables
+namespace TabBlazor
 {
     public class TableRowBase<TableItem> : TableRowComponentBase<TableItem>
     {
