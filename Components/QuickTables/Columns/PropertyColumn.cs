@@ -1,4 +1,6 @@
-namespace TabBlazor.Components.QuickTables;
+using TabBlazor.Components.QuickTables;
+
+namespace TabBlazor;
 
 public class PropertyColumn<TGridItem, TProp> : ColumnBase<TGridItem>, ISortBuilderColumn<TGridItem>
 {

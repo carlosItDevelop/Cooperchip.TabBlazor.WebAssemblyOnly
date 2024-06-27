@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace TabBlazor.Components.Tables
+namespace TabBlazor
 {
     internal static class Utilities
     {

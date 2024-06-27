@@ -1,4 +1,4 @@
-﻿namespace TabBlazor.Components.Tables;
+﻿namespace TabBlazor;
 
 public enum OnCancelStrategy {
     AsIs,
