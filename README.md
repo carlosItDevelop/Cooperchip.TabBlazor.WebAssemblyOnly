@@ -25,4 +25,6 @@
 - [x] Update .csproj with PackageIcon;
 - [x] Add TabBlazorLogo.png, TableColor and TablerExtensions;
 - [x] Rename namespaces TabBlazor(...) with TabBlazor only;
+- [ ] Corrigir: Adjusted namespace with 28 error;
+- [ ] Update App.Razor;
 
