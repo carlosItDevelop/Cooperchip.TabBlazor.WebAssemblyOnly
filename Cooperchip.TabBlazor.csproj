@@ -13,6 +13,13 @@
   </ItemGroup>
   
 	<ItemGroup>
+		<None Include="TabBlazorLogo.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>  
+  
+	<ItemGroup>
 		<PackageReference Include="LinqKit.Core" Version="1.2.4" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.4" />
 		<PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="7.0.4" />
