@@ -1,7 +1,7 @@
 # Cooperchip TabBlazor
 ---
 
-### Este projeto tem o objetivo de migrar uma solução completa com 4 projetos para um único projeto WebAssembly
+### Este projeto tem o objetivo de migrar uma solução completa com 7 projetos para um único projeto WebAssembly
 ---
 
 - [x] Criar um projeto WebAssembly Vazio;
