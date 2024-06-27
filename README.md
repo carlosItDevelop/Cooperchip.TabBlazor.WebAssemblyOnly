@@ -22,4 +22,6 @@
 - [x] Add compilerconfig;
 - [x] Add InternalIcons;
 - [x] Add TabBlazorBuilder;
+- [x] Update .csproj with PackageIcon;
+- [x] Add TabBlazorLogo.png, TableColor and TablerExtensions;
 
