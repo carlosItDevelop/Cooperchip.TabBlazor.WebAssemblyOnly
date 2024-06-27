@@ -1,4 +1,4 @@
-using TabBlazor.Components.QuickTables;
+using TabBlazor.QuickTables;
 
 namespace TabBlazor;
 

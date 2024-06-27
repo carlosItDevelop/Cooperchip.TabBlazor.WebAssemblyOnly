@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Components;
-using TabBlazor.Components.Tables.Components;
-using System;
-using System.Linq;
-using System.Threading.Tasks;
-using TabBlazor.Components.Tables;
-using LinqKit;
+﻿using LinqKit;
 
 namespace TabBlazor
 {

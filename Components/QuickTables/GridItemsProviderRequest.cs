@@ -1,3 +1,5 @@
+using TabBlazor.QuickTables;
+
 namespace TabBlazor;
 
 public struct GridItemsProviderRequest<TGridItem>

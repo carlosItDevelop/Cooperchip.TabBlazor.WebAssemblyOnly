@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using TabBlazor.Components.QuickTables.Infrastructure;
+﻿using TabBlazor.QuickTables.Infrastructure;
 
 namespace TabBlazor;
 

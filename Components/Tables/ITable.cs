@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Components.Web;
-using TabBlazor.Components.Tables;
-using TabBlazor.Components.Tables.Components;
 
 namespace TabBlazor;
 

@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Components.Web.Virtualization;
-using TabBlazor.Components.QuickTables.Infrastructure;
+using TabBlazor.QuickTables.Infrastructure;
 
 namespace TabBlazor.QuickTables;
 

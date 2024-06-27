@@ -24,4 +24,5 @@
 - [x] Add TabBlazorBuilder;
 - [x] Update .csproj with PackageIcon;
 - [x] Add TabBlazorLogo.png, TableColor and TablerExtensions;
+- [x] Rename namespaces TabBlazor(...) with TabBlazor only;
 
