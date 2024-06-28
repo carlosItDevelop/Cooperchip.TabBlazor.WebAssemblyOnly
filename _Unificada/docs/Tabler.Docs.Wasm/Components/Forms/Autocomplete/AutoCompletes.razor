@@ -1,0 +1,26 @@
+﻿
+
+@page "/docs/forms/autocomplete"
+@using TabBlazor
+
+.Forms.Autocomplete
+
+<Page>
+    <DocsExample Title="Autocompletes" ComponentType="typeof(Autocomplete<>)">
+        <CodeSnippet ClassName="@typeof(Wasm.Components.Forms.Autocomplete.AutocompleteBasic).ToString()" Title="Basic">
+            <Example>
+                <AutocompleteBasic/>
+            </Example>
+        </CodeSnippet>
+        <CodeSnippet ClassName="@typeof(Wasm.Components.Forms.Autocomplete.AutocompleteShowOptions).ToString()" Title="ShowOptions">
+            <Example>
+                <AutocompleteShowOptions/>
+            </Example>
+        </CodeSnippet>
+        <CodeSnippet ClassName="@typeof(Wasm.Components.Forms.Autocomplete.AutocompleteGrouping).ToString()" Title="Grouping">
+            <Example>
+                <AutocompleteGrouping/>
+            </Example>
+        </CodeSnippet>
+    </DocsExample>
+</Page>
