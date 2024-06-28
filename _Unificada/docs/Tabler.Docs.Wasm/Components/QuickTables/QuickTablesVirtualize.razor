@@ -1,7 +1,5 @@
 ﻿@using TabBlazor
 
-
-
 @inject IDataService Data
 
 <style>
@@ -11,28 +9,49 @@
 </style>
 <div class="card">
     <QuickTable TGridItem="Tabler.Docs.Data.Country" Virtualize="true" ItemsProvider="ItemsProvider" ItemSize="30" class="quick-table-example">
-        <PropertyColumn Property="@(x => x.Name)" Sortable="true" IsDefaultSort="SortDirection.Ascending"></PropertyColumn>
-        <PropertyColumn Property="@(x => x.Code)" Sortable="true"></PropertyColumn>
-        <PropertyColumn Property="@(x => x.Medals.Gold)"></PropertyColumn>
+        <PropertyColumn Property="@(new Func<object, string>(x => ((Tabler.Docs.Data.Country)x).Name))" Sortable="true" IsDefaultSort="SortDirection.Ascending"></PropertyColumn>
+        <PropertyColumn Property="@(new Func<object, string>(x => ((Tabler.Docs.Data.Country)x).Code))" Sortable="true"></PropertyColumn>
+        <PropertyColumn Property="@(new Func<object, int>(x => ((Tabler.Docs.Data.Country)x).Medals.Gold))"></PropertyColumn>
     </QuickTable>
 </div>
 
 @code {
 
-    private TabBlazor.Components.QuickTables.GridItemsProvider<TabBlazor.Country> ItemsProvider { get; set; }
+    private TabBlazor.Components.QuickTables.GridItemsProvider<Tabler.Docs.Data.Country> ItemsProvider { get; set; }
 
     protected override void OnInitialized()
     {
         ItemsProvider = async req =>
         {
             var sortBy = req.GetSortByProperties().SingleOrDefault();
-            var gridItemsProviderResult = await Data.GetCountriesAsync(
-                req.StartIndex,
-                req.Count,
-                sortBy.PropertyName,
-                sortBy.Direction == TabBlazor.Components.QuickTables.SortDirection.Ascending,
-                req.CancellationToken);
-            return gridItemsProviderResult;
+            if (sortBy.PropertyName != null)
+            {
+                var gridItemsProviderResult = await Data.GetCountriesAsync(
+                    req.StartIndex,
+                    req.Count,
+                    sortBy.PropertyName,
+                    sortBy.Direction == TabBlazor.Components.QuickTables.SortDirection.Ascending,
+                    req.CancellationToken);
+                return new TabBlazor.Components.QuickTables.GridItemsProviderResult<Tabler.Docs.Data.Country>
+                {
+                    Items = gridItemsProviderResult.Items,
+                    TotalItemCount = gridItemsProviderResult.TotalItemCount
+                };
+            }
+            else
+            {
+                var gridItemsProviderResult = await Data.GetCountriesAsync(
+                    req.StartIndex,
+                    req.Count,
+                    null,
+                    true,
+                    req.CancellationToken);
+                return new TabBlazor.Components.QuickTables.GridItemsProviderResult<Tabler.Docs.Data.Country>
+                {
+                    Items = gridItemsProviderResult.Items,
+                    TotalItemCount = gridItemsProviderResult.TotalItemCount
+                };
+            }
         };
     }
 

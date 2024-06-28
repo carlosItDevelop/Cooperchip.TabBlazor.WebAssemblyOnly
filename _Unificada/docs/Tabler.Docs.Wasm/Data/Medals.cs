@@ -1,3 +1,5 @@
+namespace Tabler.Docs.Data;
+
 public class Medals
 {
     public int Gold { get; set; }

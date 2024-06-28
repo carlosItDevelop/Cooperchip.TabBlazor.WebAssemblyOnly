@@ -6,6 +6,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 using TabBlazor;
 using TabBlazor.Services;
+using Tabler.Docs.Wasm.Icons;
 
 namespace Tabler.Docs.Components.Icons
 {

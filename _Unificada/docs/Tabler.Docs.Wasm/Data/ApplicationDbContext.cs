@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Tabler.Docs.Data;
+
+namespace Tabler.Docs.Data;
 
 public class ApplicationDbContext : DbContext
 {

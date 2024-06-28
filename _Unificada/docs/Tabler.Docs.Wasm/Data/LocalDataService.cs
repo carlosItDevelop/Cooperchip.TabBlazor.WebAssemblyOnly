@@ -1,14 +1,11 @@
-
-
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using TabBlazor.Components.QuickTables;
-using Tabler.Docs.Data;
-
 
 namespace Tabler.Docs.Data;
+
 public class LocalDataService : IDataService
 {
     private readonly ApplicationDbContext _dbContext;
@@ -18,13 +15,13 @@ public class LocalDataService : IDataService
         _dbContext = dbContext;
     }
 
-    public IQueryable<Country> Countries => (IQueryable<Country>)_dbContext.Countries;
+    public IQueryable<Country> Countries => _dbContext.Countries;
 
-    public async Task<GridItemsProviderResult<TabBlazor.Country>> GetCountriesAsync(
-        int startIndex, 
-        int? count, 
+    public async Task<GridItemsProviderResult<Country>> GetCountriesAsync(
+        int startIndex,
+        int? count,
         string sortBy,
-        bool sortAscending, 
+        bool sortAscending,
         CancellationToken cancellationToken)
     {
         var ordered = (sortBy, sortAscending) switch

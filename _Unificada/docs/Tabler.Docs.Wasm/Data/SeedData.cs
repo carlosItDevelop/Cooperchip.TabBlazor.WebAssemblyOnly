@@ -1,7 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Tabler.Docs.Data;
+
+namespace Tabler.Docs.Data;
 
 public static class SeedData
 {
