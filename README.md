@@ -1,7 +1,7 @@
 # Cooperchip TabBlazor
 ---
 
-### Este projeto tem o objetivo de migrar uma solução completa com 7 projetos para um único projeto WebAssembly
+### Este projeto tem o objetivo de migrar uma solução completa com 8 projetos para um único projeto WebAssembly
 ---
 
 - [ ] Projetos a serem otimizados e mixados:
@@ -9,9 +9,9 @@
 	- [x] TabBlazor.QuickTable.EntityFramework
 	- [x] Tests;
 	- [x] IconGenerator;
-	- [ ] Tabler.Docs;
-	- [ ] Tabler.Docs.Server;
-	- [ ] Tabler.Docs.Wasm;
+	- [x] Tabler.Docs;
+	- [x] Tabler.Docs.Server;
+	- [x] Tabler.Docs.Wasm;
 - [x] Criar um projeto WebAssembly Vazio;
 - [x] Criar o repositório do pojeto;
 - [x] Compilar o projeto;
