@@ -4,8 +4,8 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using TabBlazor;
 using TabBlazor.Components.QuickTables;
-using Country = TabBlazor.Country;
 
 public class LocalDataService : IDataService
 {
@@ -28,7 +28,7 @@ public class LocalDataService : IDataService
         var ordered = (sortBy, sortAscending) switch
         {
             (nameof(Country.Name), true) => _dbContext.Countries.OrderBy(c => c.Name),
-            (nameof(TabBlazor.Country.Name), false) => _dbContext.Countries.OrderByDescending(c => c.Name),
+            (nameof(Country.Name), false) => _dbContext.Countries.OrderByDescending(c => c.Name),
             (nameof(Country.Code), true) => _dbContext.Countries.OrderBy(c => c.Code),
             (nameof(Country.Code), false) => _dbContext.Countries.OrderByDescending(c => c.Code),
             ("Medals.Gold", true) => _dbContext.Countries.OrderBy(c => c.Medals.Gold),

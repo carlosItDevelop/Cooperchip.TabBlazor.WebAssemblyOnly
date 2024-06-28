@@ -1,5 +1,6 @@
 ﻿@using TabBlazor.Components.QuickTables
 @using Microsoft.EntityFrameworkCore
+
 @inject IDataService Data
 
 <div class="card">
@@ -16,8 +17,5 @@
     private static IQueryable<Tabler.Docs.Data.Country> orders = new List<Tabler.Docs.Data.Country>().AsQueryable();
 
 
-    protected override async Task OnInitializedAsync()
-    {
-        orders = (await Data.Countries.ToListAsync()).AsQueryable();
-    }
+    protected override async Task OnInitializedAsync() => orders = (await Data.Countries.ToListAsync()).AsQueryable();
 }

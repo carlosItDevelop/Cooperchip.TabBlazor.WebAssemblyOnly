@@ -1,4 +1,6 @@
-﻿@using TabBlazor.Components.QuickTables
+﻿@using TabBlazor
+
+
 @inject IDataService Data
 <style>
     .quick-table tr {
@@ -15,7 +17,7 @@
 
 @code {
 
-    private GridItemsProvider<Tabler.Docs.Data.Country> ItemsProvider { get; set; }
+    private TabBlazor.Components.QuickTables.GridItemsProvider<Tabler.Docs.Data.Country> ItemsProvider { get; set; }
 
     protected override void OnInitialized()
     {
@@ -26,7 +28,7 @@
                 req.StartIndex,
                 req.Count,
                 sortBy.PropertyName,
-                sortBy.Direction == SortDirection.Ascending,
+                sortBy.Direction == TabBlazor.Components.QuickTables.SortDirection.Ascending,
                 req.CancellationToken);
             return gridItemsProviderResult;
         };
