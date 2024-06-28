@@ -4,9 +4,11 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using TabBlazor;
 using TabBlazor.Components.QuickTables;
+using Tabler.Docs.Data;
 
+
+namespace Tabler.Docs.Data;
 public class LocalDataService : IDataService
 {
     private readonly ApplicationDbContext _dbContext;

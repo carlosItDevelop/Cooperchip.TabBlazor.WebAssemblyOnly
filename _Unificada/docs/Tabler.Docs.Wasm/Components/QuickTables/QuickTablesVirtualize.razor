@@ -1,7 +1,9 @@
 ﻿@using TabBlazor
 
 
+
 @inject IDataService Data
+
 <style>
     .quick-table tr {
          height: 45px;
@@ -17,7 +19,7 @@
 
 @code {
 
-    private TabBlazor.Components.QuickTables.GridItemsProvider<Tabler.Docs.Data.Country> ItemsProvider { get; set; }
+    private TabBlazor.Components.QuickTables.GridItemsProvider<TabBlazor.Country> ItemsProvider { get; set; }
 
     protected override void OnInitialized()
     {

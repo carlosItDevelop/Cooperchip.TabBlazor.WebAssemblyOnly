@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Tabler.Docs.Data;
 using Tabler.Docs.Services;
 
 namespace Tabler.Docs.Wasm
