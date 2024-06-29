@@ -23,9 +23,7 @@ namespace Tabler.Docs.Wasm
             builder.Services.AddDbContextFactory<ApplicationDbContext>(options => options.UseSqlite("Data Source=app.db"));
             builder.Services.AddQuickTableEntityFrameworkAdapter();
 
-            builder.Services.AddScoped<IDataService, LocalDataService>();
-            builder.Services.AddDbContextFactory<ApplicationDbContext>(options => options.UseSqlite("Data Source=app.db"));
-            builder.Services.AddQuickTableEntityFrameworkAdapter();
+
 
             builder.Services.AddScoped<ICodeSnippetService, LocalSnippetService>();
             builder.Services.AddDocs();
